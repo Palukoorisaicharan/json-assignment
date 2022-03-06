@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies.json</title>
+</head>
+<body>
+    <script>
+        let movies = [
+    {
+        "name" : "Harry potter",
+        "year" : "2001",
+        "genere" :"fantacy fiction",
+        "raing" : 7.8
+    },
+    {
+        "name" : "Thor ragnarok",
+        "year" : "2017",
+        "genere" :"fantacy",
+        "raing" : 7.9
+    }
+]
+for (let i = 0; i < movies.length; i++) {
+    console.log(movies[i])
+}
+
+for (const name of movies) {
+    console.log(name)
+}
+
+for(let key in movies)
+{
+    console.log(key, movies[key])
+}
+
+movies.forEach (function (movie){
+    console.log(movie)
+
+})
+    </script>
+</body>
+</html>

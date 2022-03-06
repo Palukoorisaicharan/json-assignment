@@ -1,0 +1,15 @@
+[
+    {
+        "name" : "Harry potter",
+        "year" : "2001",
+        "genere" :"fantacy fiction",
+        "raing" : 7.8
+    },
+    {
+        "name" : "Thor ragnarok",
+        "year" : "2017",
+        "genere" :"fantacy",
+        "raing" : 7.9
+    }
+]
+
